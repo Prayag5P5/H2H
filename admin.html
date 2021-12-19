@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Welcome</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-light">
+
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    About
+                </a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Orders
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Order History</a>
+                    <a class="dropdown-item" href="#">Place Orders</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#"></a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    Sign out
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <form>
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Select Stock</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+                <option>DBS</option>
+                <option>Dummy1</option>
+                <option>Dummy11</option>
+                <option>Dummy111</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Order Type</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+                <option>Limit</option>
+                <option>Market</option>
+            </select>
+        </div>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Price</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+        </div>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Quantity</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+        </div>
+        <p><input type="submit" value="Execute Orders" /></p>
+    </form>
+</body>
+
+</html>>
